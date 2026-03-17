@@ -1,2 +1,2 @@
-# SPECTRA-Skin-Pathology-Evaluation-via-Convolutional-Training-and-Recognition-Algorithms
+# SPECTRA Skin-Pathology Evaluation via Convolutional Training and Recognition Algorithms
 SPECTRA (Skin Pathology Evaluation via Convolutional Training and Recognition Algorithms) is a deep learning framework for automated skin lesion analysis. It leverages CNNs to classify malignant vs. benign lesions, aiming to improve early melanoma detection and reduce disparities in access to dermatologic care.
