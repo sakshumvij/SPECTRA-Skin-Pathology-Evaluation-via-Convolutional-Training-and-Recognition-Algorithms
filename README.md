@@ -3,28 +3,34 @@ SPECTRA (Skin Pathology Evaluation via Convolutional Training and Recognition Al
 
 
 Dataset Structure:
-This project expects the dataset to be organized as follows:
+## Dataset Structure
 
+```
 dataset/
+├── train/
+│   ├── benign/
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
+│   ├── malignant/
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
+│
+├── test/
+│   ├── benign/
+│   │   ├── image1.jpg
+│   │   └── ...
+│   ├── malignant/
+│   │   ├── image1.jpg
+│   │   └── ...
+```
 
-  train/
-    benign/
-      image1.jpg
-      image2.jpg
-      ...
-    malignant/
-      image1.jpg
-      image2.jpg
-      ...
+### Notes
+- Folder names must be exactly: `benign` and `malignant`
+- Supported image formats: `.jpg`, `.jpeg`, `.png`
+- Labels are inferred automatically:
+  - `benign` → 0
+  - `malignant` → 1
 
-  test/
-    benign/
-    malignant/
 
-Notes:
-
-Images must be in .jpg, .jpeg, or .png format
-Folder names must match exactly: benign, malignant
-The model automatically assigns:
-  benign → 0
-  malignant → 1
