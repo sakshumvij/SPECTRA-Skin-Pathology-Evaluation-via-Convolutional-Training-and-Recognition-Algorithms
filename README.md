@@ -1,10 +1,22 @@
 # SPECTRA Skin-Pathology Evaluation via Convolutional Training and Recognition Algorithms
 SPECTRA (Skin Pathology Evaluation via Convolutional Training and Recognition Algorithms) is a deep learning framework for automated skin lesion analysis. It leverages CNNs to classify malignant vs. benign lesions, aiming to improve early melanoma detection and reduce disparities in access to dermatologic care.
 
-Dataset Used:
-https://www.kaggle.com/datasets/fanconic/skin-cancer-malignant-vs-benign/data
+## Dataset
 
-Dataset Structure:
+This project is based on datasets from the ISIC (International Skin Imaging Collaboration) Archive.
+
+Primary dataset:
+- https://challenge2020.isic-archive.com/
+
+Official archive:
+- https://www.isic-archive.com/
+
+DOI reference:
+- https://doi.org/10.34970/2020-ds01
+
+Note: The Kaggle dataset used in this project is derived from these ISIC sources.
+
+
 ## Dataset Structure
 
 ```
