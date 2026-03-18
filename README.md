@@ -6,8 +6,11 @@ Dataset Structure:
 This project expects the dataset to be organized as follows:
 
 dataset/
+
   train/
+  
     benign/
+    
       image1.jpg
       image2.jpg
       ...
