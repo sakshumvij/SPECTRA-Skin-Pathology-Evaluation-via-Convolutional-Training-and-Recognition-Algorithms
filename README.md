@@ -11,9 +11,6 @@ Primary dataset:
 Official archive:
 - https://www.isic-archive.com/
 
-DOI reference:
-- https://doi.org/10.34970/2020-ds01
-
 Note: The Kaggle dataset used in this project is derived from these ISIC sources.
 
 
