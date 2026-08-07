@@ -6,7 +6,7 @@ SPECTRA (Skin Pathology Evaluation via Convolutional Training and Recognition Al
 This project is based on datasets from the ISIC (International Skin Imaging Collaboration) Archive.
 
 Primary dataset:
-- https://challenge2020.isic-archive.com/
+- https://www.kaggle.com/datasets/fanconic/skin-cancer-malignant-vs-benign
 
 Official archive:
 - https://www.isic-archive.com/
